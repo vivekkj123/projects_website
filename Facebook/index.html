@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <link rel="stylesheet" href="fb.css" type="text/css">
+</head>
+<body>
+    
+    <div class="header">
+    
+<div>
+    <a class="fblogo" href="index.html">facebook</a>
+</div>
+<div class="login">
+    <table class="input">
+    <tr>
+        <td class="label">Email or Phone</td>
+        <td class="label">Password</td>
+    </tr>
+    <tr>
+        <td><input type="text" name="" id="username"></td>
+        <td><input type="text" name="" id="password"></td>
+        <td><button class="sub-btn">Log In</button></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Forgotten account?</td>
+    </tr>
+</table>
+</div>
+<div class="container">
+    <div class="left-part">
+        <p>Facebook helps you connect and share with the <br> people in your life.</p>
+        <img src="fb.png" alt="">
+    
+    </div>
+    <div class="right-part">
+        <p style="color: black;  font-size: 36px; ">Create an account</h1>
+        <p style="color: black; ">It's quick and easy.</p>
+            <form id="signup">
+        <input type="text" name="fname" placeholder="First Name">
+        <input type="text" name="sname" placeholder="Surname"><br>
+        <input type="text" name="email" placeholder="Mobile Number Or Email Address"> <br>
+        <input type="password" name="pword" placeholder="New Password">
+        <p style="color: darkgrey;font-size: 20px;">Birthday</p>
+        <input type="number" min="1" max="31" value="1">
+        <select name="gender" id="">
+            <option value="">January</option>
+            <option value="">February</option>
+            <option value="">March</option>
+        </select>
+        <input type="number" min="1900" max="2020" value="2000">
+        <p style="color: darkgrey;font-size: 20px;">Gender</p>
+        <input type="radio" name="Gender">Male</type>
+        <input type="radio" name="Gender">Female</type>
+        <input type="radio" name="Gender">Other</type><br>
+        <input type="submit">
+    </form>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="fb.js"></script>
+</body>
+</html>
