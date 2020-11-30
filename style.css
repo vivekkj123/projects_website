@@ -1,0 +1,56 @@
+@import url('https://smc.org.in/fonts/dyuthi.css'); html { font-family: 'Dyuthi', sans-serif; } 
+section{
+    padding: 30px;
+}
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+    
+  }
+.card-body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between !important;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    justify-content: space-between !important;
+    
+}
+ul{
+    list-style: none;
+    direction: ltr;
+}
+.card{
+  padding: 20px;
+  background-color: rgba(48, 44, 44, 0.8) !important;
+  color: white;
+  overflow: hidden;
+}
+.card img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.card:hover img {
+  transform: scale(1.1);
+}
+
+body{
+  background: url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=889&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer{
+  text-align: center;
+}
+nav{
+  font-family: dyuthi;
+}
