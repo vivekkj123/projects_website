@@ -1,0 +1,73 @@
+.Card {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #e7e8eb;
+  min-width: 24rem;
+  padding: 40px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  margin: 20px 15px;
+  padding: 20px;
+}
+.tags {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.tags > li {
+  padding: 5px;
+  background-color: #0b8e7d;
+  margin: 10px 4px;
+  border-radius: 7px;
+}
+.tags :nth-child(2) {
+  background-color: #c90028;
+  /* color: white; */
+}
+.tags :nth-child(3) {
+  background-color: #d6c425;
+}
+.tags :nth-child(4) {
+  background-color: #9355ff;
+  /* color: white; */
+}
+.button_group {
+  /* align-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+.card_btn {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #70efde;
+  margin: 15px;
+  align-items: center;
+  transition: 0.4s;
+}
+.button_group :nth-child(2) > .card_btn {
+  border: 1px solid #e83c4a;
+}
+.button_group :nth-child(3) > .card_btn {
+    border: 1px solid #68EF99;
+  }
+.card_btn:hover {
+  background-color: #70efde;
+  color: black;
+}
+.button_group :nth-child(2) > .card_btn:hover {
+  background-color: #e83c4a;
+}
+
+.button_group :nth-child(3) > .card_btn:hover {
+    background-color: #68EF99;
+  }
