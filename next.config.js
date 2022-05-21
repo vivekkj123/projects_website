@@ -8,7 +8,11 @@ const nextConfig = {
         destination: "/:Calculator/index.html",
       }
     ]
-}
+},
+images: {
+  loader: 'imgix',
+  path: '/',
+},
 }
 
 module.exports = nextConfig
