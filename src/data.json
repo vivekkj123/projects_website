@@ -1,6 +1,52 @@
 [
     {
         "tags": [
+            "React Native",
+            "Hybrid App",
+            "Android/iOs",
+            "SQLite"
+        ],
+        "title": "Notely - Your Personal Note Taking App",
+        "description": "Notely is a note taking application which saves your notes locally.",
+        "buttons": [
+            {
+                "name": "Download For Android",
+                "link": "https://github.com/vivekkj123/quiz-app-react-native/releases"
+            },
+            {
+                "name": "Source Code",
+                "link": "https://github.com/quiz-app-react-native"
+            }
+        ],
+        "images": [
+            "/screenshots/notely/screen1.jpg",
+            "/screenshots/notely/screen2.jpg"
+        ]
+    },
+    {
+        "tags": [
+            "Flutter",
+            "Hybrid App",
+            "Android/iOs"
+        ],
+        "title": "Blinka Morse",
+        "description": "Blinka Morse is a simple flutter application which will helps to convert your message into pulses of light.",
+        "buttons": [
+            {
+                "name": "Download For Android",
+                "link": "https://github.com/vivekkj123/morse-flasher/releases"
+            },
+            {
+                "name": "Source Code",
+                "link": "https://github.com/vivekkj123/morse-flasher"
+            }
+        ],
+        "images": [
+            "/screenshots/blinka-morse.png"
+        ]
+    },
+    {
+        "tags": [
             "Flutter",
             "Hybrid App",
             "Android/iOs"
@@ -18,7 +64,8 @@
             }
         ],
         "images": [
-            "/screenshots/bmiApp/screen1.jpg"
+            "/screenshots/bmiApp/screen1.jpg",
+            "/screenshots/bmiApp/screen2.jpg"
         ]
     },
     {
@@ -84,7 +131,9 @@
             }
         ],
         "images": [
-            "/screenshots/quizApp/screen1.jpg"
+            "/screenshots/quizApp/screen1.jpg",
+            "/screenshots/quizApp/screen2.jpg",
+            "/screenshots/quizApp/screen3.jpg"
         ]
     },
     {
@@ -178,7 +227,6 @@
             "/screenshots/twitter-react-clone.jpg"
         ]
     },
-
     {
         "tags": [
             "HTML",

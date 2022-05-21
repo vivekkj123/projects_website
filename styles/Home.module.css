@@ -1,5 +1,5 @@
 .Home {
-  background-color: #ebecf0;
+  background-color: var(--color-page-background);
   /* height: 100vh; */
   min-height: 100%;
   margin: 0;

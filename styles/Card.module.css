@@ -1,7 +1,7 @@
 .Card {
   flex: 1;
-  background-color: #fff;
-  border: 1px solid #e7e8eb;
+  background-color: var(--color-white);
+  box-shadow: 2px 5px 15px 2px rgb(0 0 0 / 10%);
   min-width: 24rem;
   padding: 40px;
   justify-content: center;
@@ -10,6 +10,7 @@
   border-radius: 15px;
   margin: 20px 15px;
   padding: 20px;
+  min-height: 40rem;
 }
 .tags {
   list-style: none;
@@ -17,29 +18,26 @@
   flex-direction: row;
   margin: 0;
   padding: 0;
-  color: #fff;
+  color: var(--color-white);
   font-size: 0.75rem;
   font-weight: 600;
 }
 .tags > li {
   padding: 5px;
-  background-color: #0b8e7d;
+  background-color: var(--color-tag-1);
   margin: 10px 4px;
   border-radius: 7px;
 }
 .tags :nth-child(2) {
-  background-color: #c90028;
-  /* color: white; */
+  background-color: var(--color-tag-2);
 }
 .tags :nth-child(3) {
-  background-color: #d6c425;
+  background-color: var(--color-tag-3);
 }
 .tags :nth-child(4) {
-  background-color: #9355ff;
-  /* color: white; */
+  background-color: var(--color-tag-4);
 }
 .button_group {
-  /* align-items: center; */
   justify-content: center;
   flex-wrap: wrap;
   display: flex;
@@ -49,25 +47,25 @@
   cursor: pointer;
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid #70efde;
+  border: 1px solid var(--color-button-1);
   margin: 15px;
   align-items: center;
   transition: 0.4s;
 }
 .button_group :nth-child(2) > .card_btn {
-  border: 1px solid #e83c4a;
+  border: 1px solid var(--color-button-2);
 }
 .button_group :nth-child(3) > .card_btn {
-    border: 1px solid #68EF99;
-  }
+  border: 1px solid var(--color-button-3);
+}
 .card_btn:hover {
-  background-color: #70efde;
+  background-color: var(--color-button-1);
   color: black;
 }
 .button_group :nth-child(2) > .card_btn:hover {
-  background-color: #e83c4a;
+  background-color: var(--color-button-2);
 }
 
 .button_group :nth-child(3) > .card_btn:hover {
-    background-color: #68EF99;
-  }
+  background-color: var(--color-button-3);
+}

@@ -5,7 +5,24 @@ body {
   margin: 0;
   font-family: 'Nunito Sans', sans-serif;
 }
+:root{
+  --color-white: #fff;
+  --color-green: #009a55;
+  --color-page-background: #ebecf0;
+  --color-tag-1: #0b8e7d ;
+  --color-tag-2: #c90028;
+  --color-tag-3: #d6c425;
+  --color-tag-4: #9355ff;
+  --color-button-1: #70efde;
+  --color-button-2: #f32842;
+  --color-button-3: #68ef99;
+}
+[data-theme='dark'] {
+  --color-white: #2b3945;
+  --color-page-background: #202c37;
 
+  
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +30,33 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import projects from "../src/data.json";
 import Head from "next/head";
 
-export default function Home({projects}) {
+export default function Home() {
   return (
 
     <div className={styles.Home}>
@@ -25,13 +25,4 @@ export default function Home({projects}) {
       </div>
     </div>
   );
-}
-export const getServerSideProps = async () => {
-
-
-  return {
-    props:{
-      projects: projects
-    }
-  }
 }
