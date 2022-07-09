@@ -16,7 +16,7 @@ function Navbar() {
 
                 </p>
             </div>
-            <Link passHref href='https://vivekkj.com'>
+            <Link passHref href='https://vivekkj.codes'>
                 <div className={styles.home_btn}>
                     Home Page 🏠
                 </div></Link>
